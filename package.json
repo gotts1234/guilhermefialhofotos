@@ -1,0 +1,17 @@
+{
+  "name": "minha-loja",
+  "version": "1.0.0",
+  "main": "backend/servidor.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node backend/servidor.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mercadopago": "^2.0.6",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  }
+}
